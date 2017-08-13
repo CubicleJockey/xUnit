@@ -1,4 +1,3 @@
-using System;
 using Xunit;
 
 namespace Playground
@@ -40,6 +39,7 @@ namespace Playground
         [InlineData(14)]
         public void BasicTheory(int value)
         {
+            //Method to test
             bool IsEven(int number)
             {
                 return number % 2 == 0;
@@ -56,6 +56,7 @@ namespace Playground
         [InlineData(10, -6)]
         public void MultiValueTheory(int lhs, int rhs)
         {
+            //Method to test
             int Add(int l, int r)
             {
                 return l + r;
